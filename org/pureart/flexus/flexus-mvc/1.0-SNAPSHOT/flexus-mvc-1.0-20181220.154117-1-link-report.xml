@@ -1,0 +1,362 @@
+<report>
+  <scripts>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-mvc/src/main/flex/flexus/metadata/IMetadata.as" mod="1545241293000" size="1034" optimizedsize="337">
+      <def id="flexus.metadata:IMetadata" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="flexus.metadata:IMetaElement" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-mvc/src/main/flex/flexus/mvc/interfaces/IProxy.as" mod="1545241293000" size="726" optimizedsize="206">
+      <def id="flexus.mvc.interfaces:IProxy" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="flexus.mvc.events:ContextEvent" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-mvc/src/main/flex/flexus/inject/InjectionGlobals.as" mod="1545241293000" size="1240" optimizedsize="737">
+      <def id="flexus.inject:InjectionGlobals" />
+      <pre id="Object" />
+      <dep id="flexus.inject:Scopes" />
+      <dep id="AS3" />
+      <dep id="flash.utils:Dictionary" />
+      <dep id="__AS3__.vec:Vector" />
+      <dep id="flash.net:registerClassAlias" />
+      <dep id="Error" />
+      <dep id="flexus.inject:IConfiguration" />
+      <dep id="flexus.inject:IInjector" />
+      <dep id="flexus.inject:Inject" />
+      <dep id="flexus.inject.impl:InternalInjectionCreator" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-mvc/src/main/flex/flexus/inject/impl/BindingImpl.as" mod="1545241293000" size="1131" optimizedsize="551">
+      <def id="flexus.inject.impl:BindingImpl" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="flexus.inject:IKey" />
+      <dep id="flexus.inject:IScope" />
+      <dep id="flexus.inject:IProvider" />
+      <dep id="flexus.inject.impl:SimpleKey" />
+    </script>
+    <script name="_32c4b64445aa7210375d42012aa6cce15f1d361940c2415bec10cb1f0349b926_flash_display_Sprite.as" mod="1545320475463" size="1095" optimizedsize="562">
+      <def id="_32c4b64445aa7210375d42012aa6cce15f1d361940c2415bec10cb1f0349b926_flash_display_Sprite" />
+      <pre id="flash.display:Sprite" />
+      <dep id="AS3" />
+      <dep id="flash.system:Security" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-mvc/src/main/flex/flexus/inject/ILinkedBuilder.as" mod="1545241293000" size="832" optimizedsize="300">
+      <def id="flexus.inject:ILinkedBuilder" />
+      <pre id="flexus.inject:IScopeBuilder" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="flexus.inject:IProvider" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-mvc/src/main/flex/flexus/inject/impl/BindingMgr.as" mod="1545241293000" size="2154" optimizedsize="1266">
+      <def id="flexus.inject.impl:BindingMgr" />
+      <pre id="Object" />
+      <dep id="flash.errors:IllegalOperationError" />
+      <dep id="flexus.inject.impl:BindingBuilder" />
+      <dep id="AS3" />
+      <dep id="flash.utils:Dictionary" />
+      <dep id="flexus.inject:IKey" />
+      <dep id="flexus.inject:IBinder" />
+      <dep id="flexus.inject:IInjector" />
+      <dep id="ArgumentError" />
+      <dep id="flexus.inject.impl:BindingImpl" />
+      <dep id="flexus.inject.impl:InjectorImpl" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-mvc/src/main/flex/flexus/inject/Scopes.as" mod="1545241293000" size="481" optimizedsize="276">
+      <def id="flexus.inject:Scopes" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="flexus.inject:IScope" />
+      <dep id="flexus.inject.impl:DefaultScope" />
+      <dep id="flexus.inject.impl:SingletonScope" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-mvc/src/main/flex/flexus/inject/impl/SingletonScope.as" mod="1545241293000" size="1258" optimizedsize="725">
+      <def id="flexus.inject.impl:SingletonScope" />
+      <pre id="flexus.inject:IScope" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="flash.utils:Dictionary" />
+      <dep id="flexus.inject:IKey" />
+      <dep id="flexus.inject:IProvider" />
+      <dep id="ArgumentError" />
+      <dep id="flexus.inject.impl:InstanceProvider" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-mvc/src/main/flex/flexus/inject/impl/DefaultScope.as" mod="1545241293000" size="590" optimizedsize="264">
+      <def id="flexus.inject.impl:DefaultScope" />
+      <pre id="flexus.inject:IScope" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="flexus.inject:IKey" />
+      <dep id="flexus.inject:IProvider" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-mvc/src/main/flex/flexus/mvc/events/ContextEvent.as" mod="1545241293000" size="476" optimizedsize="220">
+      <def id="flexus.mvc.events:ContextEvent" />
+      <pre id="flash.events:Event" />
+      <dep id="AS3" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-mvc/src/main/flex/flexus/context/EventHandler.as" mod="1545241293000" size="1325" optimizedsize="684">
+      <def id="flexus.context:EventHandler" />
+      <pre id="flexus.metadata:Metadata" />
+      <dep id="AS3" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-mvc/src/main/flex/flexus/inject/IKey.as" mod="1545241293000" size="549" optimizedsize="211">
+      <def id="flexus.inject:IKey" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-mvc/src/main/flex/flexus/inject/impl/InjectorImpl.as" mod="1545241293000" size="2697" optimizedsize="1780">
+      <def id="flexus.inject.impl:InjectorImpl" />
+      <pre id="flexus.inject:IProvider" />
+      <pre id="flexus.inject:IInjector" />
+      <pre id="Object" />
+      <dep id="flexus.inject:IBindingProxy" />
+      <dep id="AS3" />
+      <dep id="flash.utils:Dictionary" />
+      <dep id="flexus.inject:IScope" />
+      <dep id="flexus.inject:IKey" />
+      <dep id="flexus.inject.impl:CascadeBindingProxy" />
+      <dep id="flexus.inject.impl:InstanceProvider" />
+      <dep id="flash.system:ApplicationDomain" />
+      <dep id="flexus.metadata:MetadataParser" />
+      <dep id="__AS3__.vec:Vector" />
+      <dep id="flexus.metadata:IMetadata" />
+      <dep id="flexus.metadata:IMetaInfo" />
+      <dep id="flexus.inject:Inject" />
+      <dep id="flexus.metadata:IMetaElement" />
+      <dep id="flexus.inject.impl:SimpleKey" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-mvc/src/main/flex/flexus/inject/impl/CascadeBindingProxy.as" mod="1545241293000" size="993" optimizedsize="563">
+      <def id="flexus.inject.impl:CascadeBindingProxy" />
+      <pre id="flexus.inject:IBindingProxy" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="flexus.inject.impl:BindingMgr" />
+      <dep id="flexus.inject:IKey" />
+      <dep id="flexus.inject:IInjector" />
+      <dep id="flexus.inject.impl:BindingImpl" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-mvc/src/main/flex/flexus/inject/IBinder.as" mod="1545241293000" size="689" optimizedsize="289">
+      <def id="flexus.inject:IBinder" />
+      <pre id="flash.events:IEventDispatcher" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="flexus.inject:IScope" />
+      <dep id="flexus.inject:ILinkedBuilder" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-mvc/src/main/flex/flexus/mvc/interfaces/IMediator.as" mod="1545241293000" size="836" optimizedsize="268">
+      <def id="flexus.mvc.interfaces:IMediator" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="flexus.mvc.interfaces:INotification" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-mvc/src/main/flex/flexus/mvc/commands/SimpleCommand.as" mod="1545241293000" size="601" optimizedsize="274">
+      <def id="flexus.mvc.commands:SimpleCommand" />
+      <pre id="flexus.mvc.interfaces:ICommand" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="flexus.mvc.interfaces:INotification" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-mvc/src/main/flex/flexus/inject/IInjector.as" mod="1545241293000" size="480" optimizedsize="217">
+      <def id="flexus.inject:IInjector" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="flash.system:ApplicationDomain" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-mvc/src/main/flex/flexus/metadata/IMetaElement.as" mod="1545241293000" size="752" optimizedsize="244">
+      <def id="flexus.metadata:IMetaElement" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-mvc/src/main/flex/flexus/inject/ConfigureEvent.as" mod="1545241293000" size="486" optimizedsize="216">
+      <def id="flexus.inject:ConfigureEvent" />
+      <pre id="flash.events:Event" />
+      <dep id="AS3" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-mvc/src/main/flex/flexus/inject/Inject.as" mod="1545241293000" size="875" optimizedsize="454">
+      <def id="flexus.inject:Inject" />
+      <pre id="flexus.metadata:Metadata" />
+      <dep id="AS3" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-mvc/src/main/flex/flexus/metadata/Metadata.as" mod="1545241293000" size="2217" optimizedsize="1091">
+      <def id="flexus.metadata:Metadata" />
+      <pre id="flexus.metadata:IMetadata" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="flexus.metadata:IMetaElement" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-mvc/src/main/flex/flexus/inject/impl/BindingBuilder.as" mod="1545241293000" size="3432" optimizedsize="1853">
+      <def id="flexus.inject.impl:BindingBuilder" />
+      <pre id="flash.events:EventDispatcher" />
+      <pre id="flexus.inject:IBinder" />
+      <pre id="flexus.inject:IProvider" />
+      <pre id="flexus.inject:ILinkedBuilder" />
+      <pre id="flexus.inject:IScopeBuilder" />
+      <pre id="Object" />
+      <dep id="flexus.inject:Scopes" />
+      <dep id="AS3" />
+      <dep id="flash.utils:Dictionary" />
+      <dep id="flexus.inject:IScope" />
+      <dep id="flash.events:IEventDispatcher" />
+      <dep id="flexus.inject.impl:BindingImpl" />
+      <dep id="ArgumentError" />
+      <dep id="flexus.inject.impl:InstanceProvider" />
+      <dep id="flexus.inject.impl:SimpleProvider" />
+      <dep id="flash.events:Event" />
+      <dep id="flexus.inject.impl:SimpleKey" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-mvc/src/main/flex/flexus/inject/IBindingProxy.as" mod="1545241293000" size="438" optimizedsize="176">
+      <def id="flexus.inject:IBindingProxy" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="flexus.inject:IKey" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-mvc/src/main/flex/flexus/inject/IConfiguration.as" mod="1545241293000" size="334" optimizedsize="146">
+      <def id="flexus.inject:IConfiguration" />
+      <pre id="flash.events:IEventDispatcher" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-mvc/src/main/flex/flexus/mvc/facades/ContextFacade.as" mod="1545241293000" size="424" optimizedsize="177">
+      <def id="flexus.mvc.facades:ContextFacade" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-mvc/src/main/flex/flexus/mvc/interfaces/ICommand.as" mod="1545241293000" size="470" optimizedsize="191">
+      <def id="flexus.mvc.interfaces:ICommand" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="flexus.mvc.interfaces:INotification" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-mvc/src/main/flex/flexus/inject/impl/SimpleProvider.as" mod="1545241293000" size="689" optimizedsize="344">
+      <def id="flexus.inject.impl:SimpleProvider" />
+      <pre id="flexus.inject:IProvider" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="ArgumentError" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-mvc/src/main/flex/flexus/inject/IScopeBuilder.as" mod="1545241293000" size="445" optimizedsize="178">
+      <def id="flexus.inject:IScopeBuilder" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="flexus.inject:IScope" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-mvc/src/main/flex/flexus/inject/impl/SimpleKey.as" mod="1545241293000" size="995" optimizedsize="525">
+      <def id="flexus.inject.impl:SimpleKey" />
+      <pre id="flexus.inject:IKey" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="ArgumentError" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-mvc/src/main/flex/flexus/inject/impl/InstanceProvider.as" mod="1545241293000" size="789" optimizedsize="405">
+      <def id="flexus.inject.impl:InstanceProvider" />
+      <pre id="flexus.inject:IProvider" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="flash.utils:Dictionary" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-mvc/src/main/flex/flexus/context/Context.as" mod="1545241293000" size="2041" optimizedsize="1278">
+      <def id="flexus.context:Context" />
+      <pre id="Object" />
+      <pre id="mx.core:IMXMLObject" />
+      <dep id="AS3" />
+      <dep id="flexus.metadata:MetadataParser" />
+      <dep id="__AS3__.vec:Vector" />
+      <dep id="flash.events:IEventDispatcher" />
+      <dep id="flash.net:registerClassAlias" />
+      <dep id="mx.core:UIComponent" />
+      <dep id="flexus.metadata:IMetadata" />
+      <dep id="flexus.metadata:IMetaInfo" />
+      <dep id="flexus.context:EventHandler" />
+      <dep id="flexus.metadata:IMetaElement" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-mvc/src/main/flex/flexus/inject/IScope.as" mod="1545241293000" size="407" optimizedsize="166">
+      <def id="flexus.inject:IScope" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="flexus.inject:IKey" />
+      <dep id="flexus.inject:IProvider" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-mvc/src/main/flex/flexus/inject/impl/InternalInjectionCreator.as" mod="1545241293000" size="1566" optimizedsize="933">
+      <def id="flexus.inject.impl:InternalInjectionCreator" />
+      <pre id="Object" />
+      <dep id="flash.errors:IllegalOperationError" />
+      <dep id="flexus.inject:IBindingProxy" />
+      <dep id="AS3" />
+      <dep id="flexus.inject.impl:BindingMgr" />
+      <dep id="__AS3__.vec:Vector" />
+      <dep id="flexus.inject:IBinder" />
+      <dep id="flexus.inject:IConfiguration" />
+      <dep id="flexus.inject:IInjector" />
+      <dep id="ArgumentError" />
+      <dep id="flexus.inject.impl:InjectorImpl" />
+      <dep id="flash.events:Event" />
+      <dep id="flexus.inject:ConfigureEvent" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-mvc/src/main/flex/flexus/mvc/interfaces/INotification.as" mod="1545241293000" size="701" optimizedsize="226">
+      <def id="flexus.mvc.interfaces:INotification" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-mvc/src/main/flex/flexus/metadata/IMetaInfo.as" mod="1545241293000" size="411" optimizedsize="162">
+      <def id="flexus.metadata:IMetaInfo" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-mvc/src/main/flex/flexus/metadata/MetadataParser.as" mod="1545241293000" size="4422" optimizedsize="2811">
+      <def id="flexus.metadata:MetadataParser" />
+      <pre id="flexus.metadata:IMetaInfo" />
+      <pre id="Object" />
+      <pre id="flexus.metadata:IMetaElement" />
+      <dep id="flash.net:getClassByAlias" />
+      <dep id="flash.utils:getDefinitionByName" />
+      <dep id="AS3" />
+      <dep id="flash.utils:Dictionary" />
+      <dep id="flash.utils:describeType" />
+      <dep id="__AS3__.vec:Vector" />
+      <dep id="flash.utils:getQualifiedClassName" />
+      <dep id="XML" />
+      <dep id="flexus.metadata:IMetadata" />
+      <dep id="Error" />
+      <dep id="flexus.metadata:Metadata" />
+      <dep id="XMLList" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-mvc/src/main/flex/flexus/inject/IProvider.as" mod="1545241293000" size="397" optimizedsize="152">
+      <def id="flexus.inject:IProvider" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-mvc/src/main/flex/flexus/inject/AbstractConfiguration.as" mod="1545241293000" size="1081" optimizedsize="599">
+      <def id="flexus.inject:AbstractConfiguration" />
+      <pre id="flash.events:EventDispatcher" />
+      <pre id="flexus.inject:IConfiguration" />
+      <dep id="AS3" />
+      <dep id="flexus.inject:IBinder" />
+      <dep id="Error" />
+      <dep id="flexus.inject:ConfigureEvent" />
+    </script>
+  </scripts>
+  <external-defs>
+    <ext id="flash.display:Sprite" />
+    <ext id="flash.errors:IllegalOperationError" />
+    <ext id="Object" />
+    <ext id="flash.events:EventDispatcher" />
+    <ext id="XMLList" />
+    <ext id="XML" />
+    <ext id="mx.core:UIComponent" />
+    <ext id="Error" />
+    <ext id="mx.core:IMXMLObject" />
+    <ext id="flash.events:Event" />
+    <ext id="flash.system:Security" />
+    <ext id="flash.utils:Dictionary" />
+    <ext id="__AS3__.vec:Vector" />
+    <ext id="ArgumentError" />
+    <ext id="flash.system:ApplicationDomain" />
+    <ext id="flash.utils:describeType" />
+    <ext id="flash.net:getClassByAlias" />
+    <ext id="flash.events:IEventDispatcher" />
+    <ext id="flash.net:registerClassAlias" />
+    <ext id="AS3" />
+    <ext id="flash.utils:getQualifiedClassName" />
+    <ext id="flash.utils:getDefinitionByName" />
+  </external-defs>
+</report>

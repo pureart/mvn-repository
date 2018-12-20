@@ -1,0 +1,177 @@
+<report>
+  <scripts>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-message/src/main/flex/flexus/message/codec/McProtocolCodecDecoder.as" mod="1545241293000" size="1739" optimizedsize="1275">
+      <def id="flexus.message.codec:McProtocolCodecDecoder" />
+      <pre id="flexus.xwork.filters.codec:CumulativeProtocolDecoder" />
+      <dep id="AS3" />
+      <dep id="trace" />
+      <dep id="flash.utils:Endian" />
+      <dep id="mx.events:Request" />
+      <dep id="flexus.core.xwork.session:IoSession" />
+      <dep id="flexus.message:IoMessage" />
+      <dep id="Error" />
+      <dep id="flexus.xwork.filters.codec:ProtocolDecoderOutput" />
+      <dep id="flexus.io:ByteBuffer" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-message/src/main/flex/flexus/message/IoMessageInfo.as" mod="1545241293000" size="817" optimizedsize="263">
+      <def id="flexus.message:IoMessageInfo" />
+      <pre id="flash.events:IEventDispatcher" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="flexus.message:IoMessage" />
+      <dep id="flexus.message:IoMessageEvent" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-message/src/main/flex/flexus/message/IoMessageEvent.as" mod="1545241293000" size="1021" optimizedsize="530">
+      <def id="flexus.message:IoMessageEvent" />
+      <pre id="flash.events:Event" />
+      <dep id="AS3" />
+      <dep id="flexus.io:ByteBuffer" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-message/src/main/flex/flexus/message/IoMessageService.as" mod="1545241293000" size="748" optimizedsize="408">
+      <def id="flexus.message:IoMessageService" />
+      <pre id="flash.events:EventDispatcher" />
+      <dep id="AS3" />
+      <dep id="flexus.logging:LoggerFactory" />
+      <dep id="mx.logging:ILogger" />
+      <dep id="flexus.core.xwork.service:IoConnector" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-message/src/main/flex/flexus/message/IoMessageSingletonClient.as" mod="1545241293000" size="2904" optimizedsize="1781">
+      <def id="flexus.message:IoMessageSingletonClient" />
+      <pre id="flexus.message:IoMessageClient" />
+      <dep id="AS3" />
+      <dep id="flexus.socket:SocketAddress" />
+      <dep id="flexus.xwork.filters.codec:ProtocolCodecFactory" />
+      <dep id="flexus.core.xwork.session:IoSession" />
+      <dep id="flash.utils:Timer" />
+      <dep id="flexus.utils:IQueue" />
+      <dep id="flexus.message:IoMessageInfo" />
+      <dep id="flexus.core.xwork.service:IoConnector" />
+      <dep id="flash.events:Event" />
+      <dep id="flexus.utils:ArrayQueue" />
+      <dep id="flash.events:TimerEvent" />
+      <dep id="flexus.errors:IllegalStateError" />
+      <dep id="ArgumentError" />
+      <dep id="flexus.core.xwork.future:FutureEvent" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-message/src/main/flex/flexus/message/IoMessageMatcher.as" mod="1545241293000" size="499" optimizedsize="212">
+      <def id="flexus.message:IoMessageMatcher" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="mx.events:Request" />
+      <dep id="flexus.message:IoMessageInfo" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-message/src/main/flex/flexus/message/codec/McProtocolCodecFactory.as" mod="1545241293000" size="1559" optimizedsize="887">
+      <def id="flexus.message.codec:McProtocolCodecFactory" />
+      <pre id="flexus.xwork.filters.codec:ProtocolCodecFactory" />
+      <pre id="flexus.core.xwork.service:IoHandler" />
+      <dep id="AS3" />
+      <dep id="flash.utils:Endian" />
+      <dep id="flexus.message.codec:McProtocolCodecDecoder" />
+      <dep id="flexus.core.xwork.session:IoSession" />
+      <dep id="flexus.xwork.filters.codec:ProtocolEncoder" />
+      <dep id="flexus.logging:LoggerFactory" />
+      <dep id="mx.logging:ILogger" />
+      <dep id="flexus.message.codec:McProtocolCodecEncoder" />
+      <dep id="flexus.xwork.filters.codec:ProtocolDecoder" />
+    </script>
+    <script name="_efb533504a3498a7fcd8d02d8054d7698a002a71c936b0c048e9fc8bb0dbe691_flash_display_Sprite.as" mod="1545320443543" size="1095" optimizedsize="562">
+      <def id="_efb533504a3498a7fcd8d02d8054d7698a002a71c936b0c048e9fc8bb0dbe691_flash_display_Sprite" />
+      <pre id="flash.display:Sprite" />
+      <dep id="AS3" />
+      <dep id="flash.system:Security" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-message/src/main/flex/flexus/message/codec/McProtocolCodecEncoder.as" mod="1545241293000" size="1363" optimizedsize="884">
+      <def id="flexus.message.codec:McProtocolCodecEncoder" />
+      <pre id="flexus.xwork.filters.codec:ProtocolEncoder" />
+      <dep id="AS3" />
+      <dep id="flash.utils:Endian" />
+      <dep id="mx.events:Request" />
+      <dep id="flexus.core.xwork.session:IoSession" />
+      <dep id="flexus.message:IoMessage" />
+      <dep id="flexus.logging:LoggerFactory" />
+      <dep id="mx.logging:ILogger" />
+      <dep id="flexus.xwork.filters.codec:ProtocolEncoderOutput" />
+      <dep id="flexus.io:ByteBuffer" />
+      <dep id="flexus.message:IoMessageInfo" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-message/src/main/flex/flexus/message/IoMessageClient.as" mod="1545241293000" size="6210" optimizedsize="3513">
+      <def id="flexus.message:IoMessageClient" />
+      <pre id="flash.events:EventDispatcher" />
+      <pre id="flexus.core.xwork.service:IoHandler" />
+      <pre id="flexus.message:IoMessageInfo" />
+      <dep id="AS3" />
+      <dep id="mx.events:Request" />
+      <dep id="flexus.xwork.filters.codec:ProtocolCodecFactory" />
+      <dep id="flexus.message:IoMessageMatcher" />
+      <dep id="flexus.socket:SocketAddress" />
+      <dep id="flexus.core.xwork.session:IoSession" />
+      <dep id="flexus.message:IoMessage" />
+      <dep id="Error" />
+      <dep id="flexus.core.xwork.service:IoConnector" />
+      <dep id="flexus.xwork.filters.logging:LoggingFilter" />
+      <dep id="flash.events:Event" />
+      <dep id="flexus.socket:SocketConnector" />
+      <dep id="flexus.utils:WeakReference" />
+      <dep id="flexus.core.xwork.filterChain:DefaultIoFilterChainBuilder" />
+      <dep id="flexus.logging:LoggerFactory" />
+      <dep id="flexus.core.xwork.service:IoServiceEvent" />
+      <dep id="mx.logging:ILogger" />
+      <dep id="flexus.xwork.filters.codec:ProtocolCodecFilter" />
+      <dep id="flexus.errors:IllegalStateError" />
+      <dep id="ArgumentError" />
+      <dep id="flexus.core.xwork.future:FutureEvent" />
+    </script>
+    <script name="/Users/jeremy/Projects/in-progress/flexus/flexus-message/src/main/flex/flexus/message/IoMessage.as" mod="1545241293000" size="1772" optimizedsize="970">
+      <def id="flexus.message:IoMessage" />
+      <pre id="flash.events:EventDispatcher" />
+      <dep id="flash.errors:IllegalOperationError" />
+      <dep id="AS3" />
+      <dep id="mx.events:Request" />
+      <dep id="mx.core:EventPriority" />
+      <dep id="ArgumentError" />
+      <dep id="flexus.io:ByteBuffer" />
+      <dep id="flexus.message:IoMessageInfo" />
+    </script>
+  </scripts>
+  <external-defs>
+    <ext id="flash.utils:Timer" />
+    <ext id="flash.utils:Endian" />
+    <ext id="flexus.core.xwork.session:IoSession" />
+    <ext id="flash.display:Sprite" />
+    <ext id="flexus.io:ByteBuffer" />
+    <ext id="flash.errors:IllegalOperationError" />
+    <ext id="Object" />
+    <ext id="flash.events:EventDispatcher" />
+    <ext id="flexus.xwork.filters.codec:CumulativeProtocolDecoder" />
+    <ext id="flexus.core.xwork.future:FutureEvent" />
+    <ext id="flexus.core.xwork.service:IoConnector" />
+    <ext id="flexus.xwork.filters.codec:ProtocolCodecFilter" />
+    <ext id="Error" />
+    <ext id="flexus.socket:SocketConnector" />
+    <ext id="trace" />
+    <ext id="flexus.core.xwork.filterChain:DefaultIoFilterChainBuilder" />
+    <ext id="mx.core:EventPriority" />
+    <ext id="flash.events:TimerEvent" />
+    <ext id="mx.events:Request" />
+    <ext id="flexus.errors:IllegalStateError" />
+    <ext id="flash.events:Event" />
+    <ext id="flexus.xwork.filters.codec:ProtocolEncoderOutput" />
+    <ext id="flexus.utils:ArrayQueue" />
+    <ext id="flexus.xwork.filters.codec:ProtocolCodecFactory" />
+    <ext id="flexus.core.xwork.service:IoHandler" />
+    <ext id="flexus.utils:IQueue" />
+    <ext id="flash.system:Security" />
+    <ext id="flexus.core.xwork.service:IoServiceEvent" />
+    <ext id="ArgumentError" />
+    <ext id="flexus.xwork.filters.logging:LoggingFilter" />
+    <ext id="mx.logging:ILogger" />
+    <ext id="flexus.socket:SocketAddress" />
+    <ext id="flexus.utils:WeakReference" />
+    <ext id="flexus.xwork.filters.codec:ProtocolEncoder" />
+    <ext id="flexus.xwork.filters.codec:ProtocolDecoderOutput" />
+    <ext id="flash.events:IEventDispatcher" />
+    <ext id="AS3" />
+    <ext id="flexus.xwork.filters.codec:ProtocolDecoder" />
+    <ext id="flexus.logging:LoggerFactory" />
+  </external-defs>
+</report>
