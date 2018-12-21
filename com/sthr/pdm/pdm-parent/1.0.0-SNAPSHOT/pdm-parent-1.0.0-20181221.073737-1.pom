@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>server-parent</artifactId>
+        <groupId>org.pureart.uccp.projects</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <groupId>com.sthr.pdm</groupId>
+    <artifactId>pdm-parent</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>PDM Parent</name>
+    <description>PDM parent POM.</description>
+    <properties>
+        <pdp.version>1.0.0-SNAPSHOT</pdp.version>
+    </properties>
+    <modules>
+        <!-- <module>pdp-server</module> -->
+        <module>pdp-api</module>
+        <!-- <module>pdp-generic</module> -->
+        <!-- <module>pdp-implementor</module> -->
+    </modules>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.sthr.pdm</groupId>
+                <artifactId>pdp-api</artifactId>
+                <version>${pdp.version}</version>
+            </dependency>
+            <!-- <dependency> -->
+                <!-- <groupId>com.sthr.pdm</groupId> -->
+                <!-- <artifactId>pdp-server</artifactId> -->
+                <!-- <version>${pdp.version}</version> -->
+            <!-- </dependency> -->
+        </dependencies>
+    </dependencyManagement>
+    <profiles>
+        <profile>
+            <id>dist</id>
+            <build>
+                <resources>
+                    <resource>
+                        <directory>src/main/config</directory>
+                        <excludes>
+                            <exclude>*.xml</exclude>
+                        </excludes>
+                    </resource>
+                </resources>
+            </build>
+        </profile>
+    </profiles>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.pureart.uccp.plugins</groupId>
+                    <artifactId>integration-maven-plugin</artifactId>
+                    <version>1.0-SNAPSHOT</version>
+                    <executions>
+                        <execution>
+                            <id>default-copy-modules</id>
+                            <goals>
+                                <goal>copy-modules</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                    <configuration>
+                        <skip>false</skip>
+                        <outputDirectory>${user.home}/.pdm/modular</outputDirectory>
+                        <modules>
+                            <module>
+                                <groupId>org.pureart.uccp.projects</groupId>
+                                <artifactId>networking</artifactId>
+                                <version>1.0-SNAPSHOT</version>
+                            </module>
+                            <module>
+                                <groupId>org.pureart.uccp.projects</groupId>
+                                <artifactId>configuration</artifactId>
+                                <version>1.0-SNAPSHOT</version>
+                            </module>
+                            <module>
+                                <groupId>org.pureart.uccp.projects</groupId>
+                                <artifactId>http-service</artifactId>
+                                <version>1.0-SNAPSHOT</version>
+                            </module>
+                            <module>
+                                <groupId>org.pureart.uccp.projects</groupId>
+                                <artifactId>configuration</artifactId>
+                                <version>1.0-SNAPSHOT</version>
+                            </module>
+                        </modules>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+</project>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.sthr.pdm</groupId>
+  <artifactId>pdm-parent</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20181221073738</lastUpdated>
+  </versioning>
+</metadata>

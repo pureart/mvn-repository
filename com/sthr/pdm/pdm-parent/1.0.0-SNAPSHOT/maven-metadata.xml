@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.sthr.pdm</groupId>
+  <artifactId>pdm-parent</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20181221.073737</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20181221073737</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0.0-20181221.073737-1</value>
+        <updated>20181221073737</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
